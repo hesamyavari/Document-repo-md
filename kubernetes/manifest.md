@@ -1,3 +1,10 @@
+# Kubernetes Manifest
+---
+## application deployment manifest 
+
+### Deployment
+
+```
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -48,3 +55,6 @@ spec:
           emptyDir: {}
       restartPolicy: Always
       imagePullPolicy: Always
+```
+
+Source [github](https://github.com/hesamyavari/Document-repo-md/blob/main/kubernetes/manifest.yaml) 
